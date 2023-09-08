@@ -86,9 +86,6 @@ const RegisterReactBootstrap = () => {
                     <Form.Label>Password</Form.Label>
                     <Form.Control type="password" name="password" placeholder="Password" required />
                 </Form.Group>
-                <Form.Group className="mb-3" controlId="formBasicCheckbox">
-                    <Form.Check type="checkbox" label="Check me out" />
-                </Form.Group>
                 <p className="text-danger">{passwordError}</p>
                 {success && <p className="text-success">User Created Successfully</p>}
                 <Button variant="primary" type="submit">
